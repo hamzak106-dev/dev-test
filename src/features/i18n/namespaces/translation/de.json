@@ -1,4 +1,34 @@
 {
-  "description": "Dies ist ein einfaches Beispiel f r eine Next.js-Anwendung mit i18n-Unterst tzung von next-i18next.",
-  "title": "Ein einfaches Beispiel"
+  "description": "Dies ist ein einfaches Beispiel einer Next.js-Anwendung mit i18n-Unterstützung über next-i18next.",
+  "title": "Ein einfaches Beispiel",
+  "sse": {
+    "testPanel": "SSE-Testpanel",
+    "status": "Status",
+    "connected": "Verbunden",
+    "disconnected": "Getrennt",
+    "connect": "Verbinden",
+    "disconnect": "Trennen",
+    "activeConnections": "Aktive Verbindungen",
+    "refresh": "Aktualisieren",
+    "sendEvents": "Ereignisse Senden",
+    "sendTestEvent": "Test-Ereignis Senden",
+    "sendCustom": "Benutzerdefiniert Senden",
+    "sending": "Sende...",
+    "messages": "Nachrichten",
+    "clear": "Löschen",
+    "noMessages": "Noch keine Nachrichten. Verbinden Sie sich und senden Sie Ereignisse!",
+    "customMessage": "Benutzerdefinierte Nachricht",
+    "connectionId": "ID",
+    "demoTitle": "Server-Sent Events Demo",
+    "demoDescription": "Diese Seite demonstriert die SSE (Server-Sent Events) Funktionalität. Verbinden Sie sich, um Echtzeit-Ereignisse zu empfangen und das Senden von Ereignissen an alle verbundenen Clients zu testen.",
+    "howItWorks": "Wie es funktioniert",
+    "step1": "Klicken Sie auf \"Verbinden\", um eine SSE-Verbindung herzustellen. Sie erhalten eine Verbindungs-ID und beginnen alle 30 Sekunden Heartbeat-Ereignisse zu empfangen.",
+    "step2": "Verwenden Sie \"Test-Ereignis Senden\", um Test-Ereignisse an alle verbundenen Clients zu senden, oder senden Sie benutzerdefinierte Nachrichten mit Ihrem eigenen Inhalt.",
+    "step3": "Alle verbundenen Clients erhalten Ereignisse in Echtzeit. Öffnen Sie mehrere Browser-Tabs, um dies in Aktion zu sehen.",
+    "step4": "Die tRPC-API ermöglicht es Backend-Services, Ereignisse an bestimmte Benutzer zu senden oder an alle verbundenen Clients zu übertragen.",
+    "stepConnect": "Verbinden:",
+    "stepSendEvents": "Ereignisse Senden:",
+    "stepRealtime": "Echtzeit-Updates:",
+    "stepBackend": "Backend-Integration:"
+  }
 }

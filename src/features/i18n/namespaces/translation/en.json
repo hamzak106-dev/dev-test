@@ -1,4 +1,34 @@
 {
   "description": "This is a simple example of a Next.js application with i18n support via next-i18next.",
-  "title": "A simple example"
+  "title": "A simple example",
+  "sse": {
+    "testPanel": "SSE Test Panel",
+    "status": "Status",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "activeConnections": "Active Connections",
+    "refresh": "Refresh",
+    "sendEvents": "Send Events",
+    "sendTestEvent": "Send Test Event",
+    "sendCustom": "Send Custom",
+    "sending": "Sending...",
+    "messages": "Messages",
+    "clear": "Clear",
+    "noMessages": "No messages yet. Connect and send some events!",
+    "customMessage": "Custom message",
+    "connectionId": "ID",
+    "demoTitle": "Server-Sent Events Demo",
+    "demoDescription": "This page demonstrates the SSE (Server-Sent Events) functionality. Connect to receive real-time events and test sending events to all connected clients.",
+    "howItWorks": "How it works",
+    "step1": "Click the \"Connect\" button to establish an SSE connection. You'll receive a connection ID and start receiving heartbeat events every 30 seconds.",
+    "step2": "Use the \"Send Test Event\" button to broadcast test events to all connected clients, or send custom messages with your own content.",
+    "step3": "All connected clients will receive events in real-time. Open multiple browser tabs to see this in action.",
+    "step4": "The tRPC API allows backend services to send events to specific users or broadcast to all connected clients.",
+    "stepConnect": "Connect:",
+    "stepSendEvents": "Send Events:",
+    "stepRealtime": "Real-time Updates:",
+    "stepBackend": "Backend Integration:"
+  }
 }
